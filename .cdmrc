@@ -1,7 +1,7 @@
 run-button: >
-  cd /home/damner/code/BooK-CRUD-JPA && mvn spring-boot:run
+  cd /home/damner/code/Book-CRUD-JPA && mvn spring-boot:run
 
 terminals:
-  - cd /home/damner/code/BooK-CRUD-JPA && mvn spring-boot:run
+  - cd /home/damner/code/Book-CRUD-JPA && mvn spring-boot:run
 
 playground-view: browser
