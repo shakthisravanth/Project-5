@@ -11,8 +11,9 @@ import com.repository.StudentRepository;
 @Service
 public class StudentService {
 
-	@Autowired
-	private StudentRepository repository;
+	// Injects StudentRepository dependency using @Autowired
+	
+	// StudentRepository reference variable
 
 	// Save student to DB
 	public Student addStudent(Student student) {
