@@ -2,33 +2,24 @@ package com.model;
 
 import jakarta.persistence.*;
 
-@Entity
-public class Student {
+// Marks this class as a JPA entity
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+// Student entity class
 
-	private String name;
-	private int age;
+// Primary key field
 
-	public Student() {
-	}
+// Auto-generate id value
 
-	public Student(String name, int age) {
-		this.name = name;
-		this.age = age;
-	}
+// Field to store student name
 
-	public int getId() {
-		return id;
-	}
+// Field to store student age
 
-	public String getName() {
-		return name;
-	}
+// Default constructor required by JPA
 
-	public int getAge() {
-		return age;
-	}
-}
+// Parameterized constructor to initialize name and age
+
+// Getter method for id
+
+// Getter method for name
+
+// Getter method for age
