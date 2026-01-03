@@ -18,10 +18,17 @@ public class Student {
 
 // Parameterized constructor to initialize name and age
 
+// Setter method for id
+
+// Setter method for name
+
+// Setter method for age
+  
 // Getter method for id
 
 // Getter method for name
 
 // Getter method for age
 
+  
 }
