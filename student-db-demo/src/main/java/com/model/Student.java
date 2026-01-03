@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 // Marks this class as a JPA entity
 
-// Student entity class
+public class Student {
 
 // Primary key field
 
@@ -23,3 +23,5 @@ import jakarta.persistence.*;
 // Getter method for name
 
 // Getter method for age
+
+}
