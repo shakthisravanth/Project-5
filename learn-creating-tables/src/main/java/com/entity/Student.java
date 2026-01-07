@@ -3,10 +3,11 @@ package com.entity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
-@Entity
+// Marks the class as a JPA entity
 public class Student {
 
-	@Id
+	
+	// Marks the field as the primary key
 	private int id;
 
 	private String name;
