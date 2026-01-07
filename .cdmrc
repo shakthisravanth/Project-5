@@ -1,0 +1,8 @@
+run-button: >
+  cd /home/damner/code/Runner-Demo && mvn spring-boot:run
+
+terminals:
+  - cd /home/damner/code/Runner-Demo && mvn spring-boot:run
+
+playground-view: browser
+project-name: Runner-Demo
