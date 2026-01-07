@@ -4,33 +4,18 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 // Marks the class as a JPA entity
-public class Student {
-
 	
+// Student entity class
 	// Marks the field as the primary key
-	private int id;
+// Primary key field [id]
 
-	private String name;
-	private int age;
+// Field to store student name
 
-	public Student() {
-		
-	}
+// Field to store student age
 
-	public Student(String name, int age) {
-		this.name = name;
-		this.age = age;
-	}
+// Default constructor required by JPA
 
-	public int getId() {
-		return id;
-	}
+// Parameterized constructor to initialize name and age
 
-	public String getName() {
-		return name;
-	}
+// Setters and Getters for the fields
 
-	public int getAge() {
-		return age;
-	}
-}
