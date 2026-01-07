@@ -9,29 +9,27 @@ import org.springframework.stereotype.Component;
 import com.model.Student;
 import com.repository.StudentRepository;
 
-@Component
+// Marks this class as a Spring component
 public class Runner implements CommandLineRunner {
 
-	@Autowired
-	private StudentRepository repository;
+	// Injects StudentRepository dependency
 
 	@Override
-	public void run(String... args) throws Exception {
-
-		Student s1 = new Student(1, "Rahul", 22);
-		Student s2 = new Student(2, "Anita", 21);
-
-		repository.save(s1);
-		repository.save(s2);
-
-		List<Student> students = repository.findAll();
-
-		System.out.println("Students in Database:");
-
-		for (Student s : students) {
-
-			System.out.println(s.getId() + " " + s.getName() + " " + s.getAge());
-
-		}
+	public void run(String... args) throws Exception {		
+	
+	// run method executed at application startup
+	
+	// Create Student objects
+	
+	// Save student objects into database
+	
+	// Fetch all students from database
+	
+	// Print header message
+	
+	// Loop through students list
+	
+	// Print student details
+		
 	}
 }
