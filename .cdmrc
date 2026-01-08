@@ -1,0 +1,8 @@
+run-button: >
+  cd /home/damner/code/Fetch-Customer-by-ID && mvn spring-boot:run
+
+terminals:
+  - cd /home/damner/code/Fetch-Customer-by-ID && mvn spring-boot:run
+
+playground-view: browser
+project-name: Fetch-Customer-by-ID
