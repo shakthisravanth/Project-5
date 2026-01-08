@@ -11,16 +11,15 @@ import com.repository.CustomerRepository;
 @Service
 public class CustomerService {
 
-	@Autowired
-	private CustomerRepository repository;
+	// Injects CustomerRepository dependency using @Autowired
 
+	// CustomerRepository reference variable
+	
+	// Method to add a new customer to the database
+	// Accepts Customer object as parameter
+	// Return type: Customer
+	
+	// Method to fetch all customers from the database
+	// Return type: List<Customer>
 
-	public Customer addCustomer(Customer customer) {
-		return repository.save(customer);
-	}
-
-
-	public List<Customer> getAllCustomers() {
-		return repository.findAll();
-	}
 }
