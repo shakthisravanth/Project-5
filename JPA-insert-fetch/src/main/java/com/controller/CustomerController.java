@@ -12,18 +12,15 @@ import com.service.CustomerService;
 @RequestMapping("/customers")
 public class CustomerController {
 
-	@Autowired
-	private CustomerService service;
+	// Injects CustomerService dependency using @Autowired
+	
+	// CustomerService reference variable
+	
+	// Handle POST request to add a new customer
+	// Reads customer data from request body
+	// Return type: Customer
+	
+	// Handle GET request to fetch all customers
+	// Return type: List<Customer>
 
-
-	@PostMapping("/add")
-	public Customer addCustomer(@RequestBody Customer customer) {
-		return service.addCustomer(customer);
-	}
-
-
-	@GetMapping("/all")
-	public List<Customer> getAllCustomers() {
-		return service.getAllCustomers();
-	}
 }
