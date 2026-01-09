@@ -2,7 +2,7 @@ run-button: >
   cd /home/damner/code/customer-exception && mvn spring-boot:run
 
 terminals:
-  - cd /home/damner/code/delete-customer-exception && mvn spring-boot:run
+  - cd /home/damner/code/customer-exception && mvn spring-boot:run
 
 playground-view: browser
-project-name: delete-customer-exception
+project-name: customer-exception
